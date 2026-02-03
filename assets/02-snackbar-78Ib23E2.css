@@ -1,0 +1,1 @@
+form{display:flex;flex-direction:column;justify-content:center;margin:0 auto}#delay-label{display:flex;flex-direction:column;justify-content:flex-start}input[name=delay]{width:250px;padding-top:10px;margin:10px 0}fieldset{display:flex;flex-direction:row;justify-content:space-around;width:228px}button{width:257px;margin-top:10px}
