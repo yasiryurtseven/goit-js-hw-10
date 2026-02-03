@@ -1,15 +1,29 @@
-.gallery {
-  list-style: none;
+.timer {
+  font-size: 16px;
+  color: black;
   display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  margin: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
 }
-img {
-  width: 360px;
+
+.value,
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+}
+#datetime-picker {
+  margin: 10px;
+  width: 200px;
   height: auto;
+  padding: 5px;
 }
-img:hover {
-  transform: scale(1.05);
-  transition: transform 250ms ease-in-out;
+button {
+  padding: 5px;
+  font-size: 16px;
+  height: auto;
+  width: 50px;
 }
